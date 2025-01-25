@@ -5,7 +5,7 @@ import requests
 def get_weather():
     city = city_entry.get()
     
-    api_key = "your_api_key_here"
+    api_key = "your_api_key_here" # Paste your API key here, if not available then you can get that from OpenWeather API 
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     
     url = f"{base_url}q={city}&appid={api_key}&units=metric"
